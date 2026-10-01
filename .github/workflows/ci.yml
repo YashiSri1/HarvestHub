@@ -31,6 +31,9 @@ jobs:
           java-version: '17'
           cache: maven
 
+      - name: Make Maven wrapper executable
+        run: chmod +x mvnw
+
       - name: Prepare CI configuration
         run: cp src/main/resources/application-example.properties src/main/resources/application.properties
 
