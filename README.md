@@ -18,7 +18,7 @@ HarvestHub is a comprehensive full-stack web application designed for farmers to
 - **Build Tool**: Maven, npm
 
 ## Architecture
-- React Frontend -> REST APIs -> Controllers -> Service Layer -> JPA Repository -> Oracle Database
+- React Frontend -> REST APIs -> Controllers -> Service Layer -> JPA Repository -> MySQL Database
 
 ## Project Structure
 ```
