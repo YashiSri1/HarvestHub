@@ -1,0 +1,47 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+credentials.json
+secrets.json
+
+# Local Spring configuration
+backend/src/main/resources/application.properties
+backend/src/main/resources/application-local.properties
+
+# Java / Maven
+backend/target/
+*.class
+
+# Node.js / frontend build output
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+
+# Logs
+logs/
+*.log
+
+# Local JDK and generated files
+jdk/
+
+# Editor and operating-system files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
